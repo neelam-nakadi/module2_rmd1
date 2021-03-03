@@ -3,8 +3,8 @@ title: "Module2_RMarkdown_Document1"
 author: "Neelam Nakadi, Statistician"
 date: "03/03/2021"
 output:
-  word_document: default
   html_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -108,3 +108,24 @@ knitr::kable(head(cars), caption = "Top 6 rows of cars dataset")
 
 ## Insert an equation
 $$ Y = \beta_0 + \beta_1X $$
+
+## Inserted Image
+![sunstar](sunstar.png)
+
+## Insert R Logo
+Here is the R logo.
+
+![R Logo](https://www.r-project.org/logo/Rlogo.svg)
+
+## Insert an animated gif
+![Animated Gif Sunstar](sunstar.gif)
+
+## Insert mp4
+![Animated Gif Sunstar](sunstar.mp4)
+
+## INsert footnotes
+Here is a footnote [^1] and another footnote [^longnote].
+Here is an ^[Inline notes for writing.]
+
+[^1]: Here is a footnote
+[^longnote]: and another footnote
